@@ -1,34 +1,36 @@
+import { Link } from "react-router-dom";
+
 const ServicesSection = () => {
   const services = [
     {
-      title: "Agua Contra Incendios",
-      alt: "Agua Contra Incendios",
-      img: "",
-      link: "#",
+      title: "Equipos de aire acondicionado VRF",
+      alt: "Equipos de aire acondicionado VRF",
+      img: "images/vecteezy_compressors-air-conditioners-on-the-roof-of-the-office_17020864.jpg",
+      slug: "vrf",
     },
     {
-      title: "Sistemas de detección y alarmas contra incendios",
-      alt: "Sistemas de detección y alarmas contra incendios",
-      img: "",
-      link: "#",
+      title: "Equipos de aire acondicionado convencional",
+      alt: "Equipos de aire acondicionado convencional",
+      img: "images/aire-acondicionado-convencional.webp",
+      slug: "convencional",
     },
     {
-      title: "Diseño, Ingeniería y Supervisión de Proyectos",
-      alt: "Diseño, Ingeniería y Supervisión de Proyectos",
-      img: "",
-      link: "#",
+      title: "Equipos de aire acondicionado de precisión",
+      alt: "Equipos de aire acondicionado de precisión",
+      img: "images/sistemas-de-aire-acondicionado-de-precisic3b3n.jpg",
+      slug: "precision",
     },
     {
-      title: "Mantenimiento Integral de Sistemas contra Incendios",
-      alt: "Mantenimiento Integral de Sistemas contra Incendios",
-      img: "",
-      link: "#",
+      title: "Equipos de aire acondicionado Chiller",
+      alt: "Equipos de aire acondicionado Chiller",
+      img: "images/vecteezy_industry-engineer-under-checking-the-industry-cooling-tower_6668318.jpg",
+      slug: "chiller",
     },
     {
-      title: "Sistema de incendio para Data Center",
-      alt: "Sistema de incendio para Data Center",
-      img: "",
-      link: "#",
+      title: "Equipos de refrigeración industrial",
+      alt: "Equipos de refrigeración industrial",
+      img: "images/vecteezy_empty-industrial-refrigerator-showing-metal-shelves-and-air_68012459.jpg",
+      slug: "refrigeracion-industrial",
     },
   ];
 
@@ -36,23 +38,27 @@ const ServicesSection = () => {
     <div id="container-module-services">
       <div className="center">
         <div className="row-services">
-          <div className="title-services">
+          <div className="title-services" data-aos="fade-up">
             <span>Nuestros</span>
             <h1>Servicios</h1>
           </div>
 
-          {/* SERVICES GRID */}
           <div className="groups-services">
             {services.map((service, index) => (
-              <div className="column-services" key={index}>
-                <a href={service.link}>
+              <div
+                className="column-services"
+                key={index}
+                data-aos="fade-up"
+                data-aos-delay={index * 100}
+              >
+                <Link to={`/servicios-detalle/${service.slug}`}>
                   <img src={service.img} alt={service.alt} />
 
                   <div className="content-text">
                     <h2>{service.title}</h2>
                     <span>VER MÁS</span>
                   </div>
-                </a>
+                </Link>
               </div>
             ))}
           </div>

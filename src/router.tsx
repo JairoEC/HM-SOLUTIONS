@@ -4,6 +4,7 @@ import Home from "./hm-refrigeracion/pages/Home";
 import Nosotros from "./hm-refrigeracion/pages/Nosotros";
 import Servicios from "./hm-refrigeracion/pages/Servicios";
 import Cotizar from "./hm-refrigeracion/pages/Cotizar";
+import ServiciosDetalle from "./hm-refrigeracion/pages/ServiciosDetalle";
 
 export const router = createBrowserRouter([
   {
@@ -21,5 +22,9 @@ export const router = createBrowserRouter([
   {
     path: "/cotizar",
     element: <Cotizar />,
+  },
+  {
+    path: "/servicios-detalle/:slug",
+    element: <ServiciosDetalle />,
   },
 ]);
