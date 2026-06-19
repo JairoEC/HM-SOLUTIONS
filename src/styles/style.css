@@ -4129,6 +4129,7 @@ ul.sub-menu {
 
 .container-mision {
     display: flex;
+	padding: 50px 0;
     justify-content: space-between;
     align-items: center;
     overflow: hidden;
@@ -5569,7 +5570,107 @@ ul.sub-menu {
     background: #03558f;
     transform: translateY(-2px);
 }
+.iso-section {
+  padding: 80px 20px;
+  background: #f4f4f4;
+}
 
+.iso-container {
+  max-width: 1200px;
+  margin: auto;
+}
+
+.iso-title {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.iso-title span {
+  color: #0d6efd;
+  font-size: 15px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.iso-title h2 {
+  font-size: 38px;
+  margin: 15px 0;
+  color: #1D3360;
+  font-weight: 700;
+}
+
+.iso-title p {
+  max-width: 700px;
+  margin: auto;
+  color: #6b7280;
+  line-height: 1.7;
+  font-size: 16px;
+}
+
+.iso-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+
+.iso-card {
+  background: #fff;
+  border-radius: 18px;
+  padding: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 220px;
+  transition: 0.35s ease;
+}
+
+.iso-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.15);
+}
+
+.iso-image {
+  max-width: 180px;
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+/* Tablet */
+@media (max-width: 991px) {
+  .iso-title h2 {
+    font-size: 30px;
+  }
+
+  .iso-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* Celular */
+@media (max-width: 768px) {
+  .iso-section {
+    padding: 60px 15px;
+  }
+
+  .iso-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .iso-card {
+    padding: 25px;
+    min-height: 180px;
+  }
+
+  .iso-image {
+    max-width: 150px;
+  }
+
+  .iso-title h2 {
+    font-size: 26px;
+  }
+}
 /* RESPONSIVE */
 
 @media (max-width: 768px) {

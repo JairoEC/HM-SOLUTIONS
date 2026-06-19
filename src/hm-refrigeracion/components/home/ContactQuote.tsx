@@ -84,7 +84,7 @@ const ContactQuote = () => {
                 <div className="icon_cotizar"><img src="/icons/call.svg" alt="Teléfono" /></div>
                 <div className="text-icon_cotizar">
                   <h3>Teléfonos</h3>
-                  <a href="tel:938420878">938420878 - 980596485</a>
+                  <a href="tel:938420878">+51 980 596 485</a>
                 </div>
               </li>
             </ul>

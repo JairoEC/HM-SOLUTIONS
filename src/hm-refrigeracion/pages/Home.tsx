@@ -5,6 +5,7 @@ import Header from "../components/Header";
 import BannerHome from "../components/home/BannerHome";
 import AboutServices from "../components/home/AboutServices";
 import ExperienceClients from "../components/home/ExperienceClients";
+import SectionIso from "../components/home/SectionIso"
 import SectionMarca from "../components/home/SectionMarcas";
 import ContactQuote from "../components/home/ContactQuote";
 import Footer from "../components/Footer";
@@ -29,6 +30,7 @@ const Home = () => {
           <AboutServices />
           <SectionMarca/>
           <ExperienceClients />
+          <SectionIso/>
           <ContactQuote />
         </section>
       </main>
