@@ -23,7 +23,7 @@ const ServicesSection = () => {
     {
       title: "Equipos de aire acondicionado Chiller",
       alt: "Equipos de aire acondicionado Chiller",
-      img: "images/close-up-ventilation-system.jpeg",
+      img: "images/chiller.jpg",
       slug: "chiller",
     },
     {

@@ -84,7 +84,7 @@ export const servicesData = [
       {
         title: "Equipos de aire acondicionado Chiller",
         subtitle: "Soluciones centralizadas para grandes instalaciones",
-        image: "/images/close-up-ventilation-system.jpeg",
+        image: "/images/chiller.jpg",
         link: "chiller",
       },
       {
@@ -161,7 +161,7 @@ export const servicesData = [
       {
         title: "Equipos de aire acondicionado Chiller",
         subtitle: "Soluciones centralizadas para grandes instalaciones",
-        image: "/images/close-up-ventilation-system.jpeg",
+        image: "/images/chiller.jpg",
         link: "chiller",
       },
       {
@@ -238,7 +238,7 @@ export const servicesData = [
       {
         title: "Equipos de aire acondicionado Chiller",
         subtitle: "Soluciones centralizadas para grandes instalaciones",
-        image: "/images/close-up-ventilation-system.jpeg",
+        image: "/images/chiller.jpg",
         link: "chiller",
       },
       {
@@ -252,7 +252,7 @@ export const servicesData = [
   {
     slug: "chiller",
     banner: {
-      image: "/images/close-up-ventilation-system.jpeg",
+      image: "/images/chiller.jpg",
       title: "Especialistas en",
       subtitle: "Sistemas Chiller",
       button: {
@@ -267,7 +267,7 @@ export const servicesData = [
         "Ofrecemos soluciones avanzadas en sistemas Chiller diseñados para la climatización de grandes espacios y procesos industriales que requieren control térmico preciso y continuo.",
         "Nuestros equipos garantizan alta eficiencia energética, estabilidad operativa y un desempeño confiable incluso en condiciones de alta demanda."
       ],
-      image: "/images/close-up-ventilation-system.jpeg",
+      image: "/images/chiller.jpg",
       buttons: [
         {
           label: "CONTÁCTENOS",
@@ -290,7 +290,7 @@ export const servicesData = [
         "Brindamos soluciones integrales en sistemas Chiller, desde el diseño e instalación hasta el mantenimiento preventivo y correctivo.",
         "Nuestro objetivo es asegurar la continuidad operativa de tus sistemas de refrigeración, optimizando costos y maximizando la eficiencia energética."
       ],
-      image: "/images/close-up-ventilation-system.jpeg",
+      image: "/images/chiller.jpg",
       buttons: [
         {
           label: "CONTÁCTENOS",
@@ -398,7 +398,7 @@ export const servicesData = [
       {
         title: "Equipos de aire acondicionado Chiller",
         subtitle: "Soluciones centralizadas para grandes instalaciones",
-        image: "/images/close-up-ventilation-system.jpeg",
+        image: "/images/chiller.jpg",
         link: "chiller",
       }
     ],
