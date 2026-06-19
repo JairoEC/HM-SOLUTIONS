@@ -5,6 +5,7 @@ import Header from "../components/Header";
 import BannerHome from "../components/home/BannerHome";
 import AboutServices from "../components/home/AboutServices";
 import ExperienceClients from "../components/home/ExperienceClients";
+import SectionMarca from "../components/home/SectionMarcas";
 import ContactQuote from "../components/home/ContactQuote";
 import Footer from "../components/Footer";
 
@@ -26,6 +27,7 @@ const Home = () => {
         <section>
           <BannerHome />
           <AboutServices />
+          <SectionMarca/>
           <ExperienceClients />
           <ContactQuote />
         </section>

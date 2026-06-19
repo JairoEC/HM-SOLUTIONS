@@ -10,7 +10,7 @@ const BannerHome = () => {
   const slides = [
     {
       img: "/images/close-up-heat-pump-outside-home (2).jpeg",
-      alt: "mantenimiento correctivo de aire acondicionado  ro",
+      alt: "mantenimiento correctivo de aire acondicionado",
       span: "Especialistas en",
       title: "mantenimiento correctivo de aire acondicionado ",
       text: "Climatización industrial eficiente para empresas.",
@@ -30,12 +30,19 @@ const BannerHome = () => {
       text: "Nos encargamos de la comodidad de tu hogar.",
     },
     {
-      img: "/images/close-up-heat-pump-outside-home.jpeg",
+      img: "/images/aire-presicion.jpg",
       alt: "Aire Acondicionado de Precisión",
       span: "Especialistas en",
       title: "Aire Acondicionado de Precisión",
       text: "Aire acondicionado de precisión, máxima eficiencia garantizada.",
     },
+    {
+    img: "/images/chiller.png",
+    alt: "Sistemas Chiller",
+    span: "Especialistas en",
+    title: "Sistemas Chiller",
+    text: "Enfriamiento eficiente y confiable para aplicaciones industriales y comerciales.",
+  },
   ];
 
   return (
